@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Global */
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 1.25em;
+}
+p {
+  margin: 10px 0;
+}
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #f7c08a;
+  color: #333;
+}
+/* Utility */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+.text-primary {
+  color: #f7c08a;
+}
+.lead {
+  color: #fff;
+  font-size: 1.2em;
+}
+/* Navbar */
+#navbar {
+  color: #fff;
+  background: #333;
+  overflow: auto;
+}
+#navbar a {
+  color: #fff;
+}
+#navbar h1 {
+  float: left;
+  margin-top: 20px;
+  font-size: 25px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  text-align: center;
+  padding: 25px;
+  display: block;
+}
+#navbar ul li a:hover {
+  color: #f7c08a;
+  background: #504d4d;
+}
+/* Showcase */
+#showcase {
+  background: url("../self_practise/img/showcase.jpg") no-repeat center
+    center/cover;
+  height: 600px;
+}
+#showcase .showcase-content {
+  text-align: center;
+  color: #fff;
+  padding-top: 170px;
+}
+#showcase .showcase-content h1 {
+  font-size: 55px;
+  line-height: 1.2em;
+}
+#showcase .showcase-content p {
+  margin-bottom: 50px;
+  line-height: 1.2em;
+}
