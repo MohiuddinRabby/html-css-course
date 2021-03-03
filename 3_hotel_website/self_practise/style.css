@@ -38,6 +38,10 @@ p {
   background: #f4f4f4;
   color: #333;
 }
+.bg-primary {
+  color: #333;
+  background: #f7c08a;
+}
 .bg-dark {
   background: #333;
   color: #fff;
@@ -55,6 +59,9 @@ p {
 .lead {
   color: #fff;
   font-size: 1.2em;
+}
+.clr{
+  clear: both;
 }
 /* Navbar */
 #navbar {
@@ -120,9 +127,25 @@ p {
   width: 50%;
   height: 100%;
   text-align: center;
-  margin-top: 80px;
 }
 #home-info .info-content p {
   line-height: 1.2em;
   padding-bottom: 25px;
+}
+/* Services */
+.box {
+  float: left;
+  padding: 50px;
+  width: 28%;
+  text-align: center;
+}
+/* Footer */
+#main-footer{
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+#main-footer p{
+  font-size: 20px;
 }
