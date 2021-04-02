@@ -1,0 +1,12 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* justify content property */
+  /* flex-start flex-end center space-around
+space-between space-evenly */
+}
+.home {
+  margin-right: auto;
+}
