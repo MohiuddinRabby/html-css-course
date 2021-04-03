@@ -1,14 +1,17 @@
 html,
 body {
   background-color: #ffeead;
-  margin: 10px;
+  height: 100%;
 }
-
+body {
+  margin: 0;
+}
 .container > div {
   padding: 10px;
   text-align: center;
   font-size: 2em;
   color: #ffeead;
+  background-color: #ff6f69;
 }
 .container > div:nth-child(1) {
   background-color: #96ceb4;
