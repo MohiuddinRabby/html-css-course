@@ -1,0 +1,24 @@
+header {
+  background: blue;
+  height: 118px;
+}
+nav {
+  background: brown;
+  height: 40px;
+}
+main {
+  background: burlywood;
+  height: 400px;
+}
+footer {
+  background: green;
+  height: 100px;
+}
+body {
+  background-color: #2f3035;
+}
+.container {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
