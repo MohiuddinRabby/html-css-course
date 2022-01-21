@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: url("img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+header {
+  height: 118px;
+  text-align: center;
+}
+nav {
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.144);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+main {
+  height: 400px;
+  text-align: center;
+  padding: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+main h1 {
+  font-size: 70px;
+}
+main p {
+  font-size: 20px;
+}
+main a {
+  color: #fff;
+  font-size: 20px;
+}
+footer {
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.144);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer p {
+  font-size: 20px;
+}
+.container {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
