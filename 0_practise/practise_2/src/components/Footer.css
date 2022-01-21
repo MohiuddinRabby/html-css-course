@@ -1,0 +1,10 @@
+footer {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.144);
+  height: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer p {
+  font-size: 20px;
+}
