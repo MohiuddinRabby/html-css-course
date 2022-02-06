@@ -1,0 +1,13 @@
+.testomonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.tbox {
+  width: 47%;
+  border: 1px solid #fff;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}

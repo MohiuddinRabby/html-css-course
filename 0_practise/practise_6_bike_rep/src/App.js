@@ -3,6 +3,7 @@ import Cards from "./components/Cards";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Testomonials from "./components/Testomonials";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <Hero />
       <Cards />
+      <Testomonials/>
       <Contact />
     </div>
   );
