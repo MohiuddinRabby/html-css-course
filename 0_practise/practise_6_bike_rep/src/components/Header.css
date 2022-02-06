@@ -1,0 +1,22 @@
+/* navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.header-nav {
+  justify-content: flex-end;
+}
+.nav-button {
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  padding: 11px 25px;
+}
+nav a {
+  margin-left: 10px;
+}

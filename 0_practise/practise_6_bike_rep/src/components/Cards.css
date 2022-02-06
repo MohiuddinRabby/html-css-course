@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.card-1 {
+  background-image: url("../img/image-background-card1.jpg");
+}
+.card-2 {
+  background-image: url("../img/image-background-card2.jpg");
+}
+.card-3 {
+  background-image: url("../img/image-background-card3.jpg");
+}
+.card-1,
+.card-2,
+.card-3 {
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
+  min-height: 250px;
+  width: 30%;
+  padding: 30px 30px 20px 30px;
+  background-size: cover;
+  background-position: bottom;
+}
+.cards p {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-top: 10px;
+}

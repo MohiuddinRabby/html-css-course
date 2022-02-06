@@ -1,0 +1,19 @@
+form {
+  margin-bottom: 100px;
+}
+.contact-form {
+  min-height: 300px;
+}
+.input-wrapper {
+  margin-bottom: 20px;
+}
+.newLine {
+  display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px 20px;
+  font-size: 0.85rem;
+  width: 50%;
+}

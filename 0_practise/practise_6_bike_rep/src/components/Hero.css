@@ -1,0 +1,13 @@
+/* hero-section */
+.hero-section {
+  display: flex;
+  min-height: 400px;
+  align-items: center;
+}
+.hero-1 {
+  flex: 2;
+  padding-right: 6.25rem;
+}
+.hero-2 {
+  flex: 1;
+}
