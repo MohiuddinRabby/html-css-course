@@ -1,34 +1,115 @@
 /* Global or Desktop View */
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background-color: #ebebeb;
+}
+.header-container {
+  background-color: rgba(0, 0, 0, 0.493);
+  min-height: 100px;
+  position: fixed;
+  width: 100%;
+}
+header {
+  /* background-color: blueviolet; */
+  min-height: 100px;
+  margin: 0 auto;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo p span {
+  font-weight: bold;
+}
+header .header-menu {
+  justify-content: flex-end;
+}
+header .header-menu nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 30px;
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  font-weight: bold;
 }
 .container {
-  background-color: rgb(38, 216, 157);
   min-height: 500px;
   max-width: 1024px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 150px;
 }
 .col {
   width: 30%;
   min-height: 200px;
-  background: wheat;
   margin-bottom: 40px;
   text-align: center;
+  background-color: rgb(27, 153, 111);
+}
+.col img {
+  width: 100%;
+  height: auto;
+}
+.col p {
+  color: #fff;
+  font-size: 1rem;
+  padding: 20px 25px;
+  line-height: 1.5rem;
+}
+.col p::first-line {
+  font-weight: 700;
 }
 /* tablet view */
 @media (max-width: 768px) {
   .col {
     width: 45%;
-    background: rgb(226, 187, 115);
+  }
+}
+/* table view 2 */
+@media (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
+  header {
+    display: block;
+    text-align: center;
+  }
+  .header-logo {
+    padding: 40px 0;
+  }
+  .header-container {
+    position: relative;
+  }
+  .container {
+    padding-top: 40px;
+  }
+  nav a {
+    display: block;
   }
 }
 /* mobile view */
 @media (max-width: 400px) {
   .col {
     width: 100%;
-    background: rgb(202, 73, 22);
+  }
+  header {
+    display: block;
+    text-align: center;
+  }
+  .header-logo {
+    padding: 40px 0;
+  }
+  .header-container {
+    position: relative;
+  }
+  .container {
+    padding-top: 40px;
+  }
+  nav a {
+    display: block;
   }
 }
