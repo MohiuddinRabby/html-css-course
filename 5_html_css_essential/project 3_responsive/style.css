@@ -34,6 +34,14 @@ header .header-menu nav a {
   padding: 10px 25px;
   font-weight: bold;
 }
+.mobile-menu a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 30px;
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  font-weight: bold;
+}
 .container {
   min-height: 500px;
   max-width: 1024px;
@@ -63,10 +71,38 @@ header .header-menu nav a {
 .col p::first-line {
   font-weight: 700;
 }
+.mobile-nav{
+  display: none;
+}
 /* tablet view */
 @media (max-width: 768px) {
   .col {
     width: 45%;
+  }
+  /* header {
+    display: block;
+    text-align: center;
+  } */
+  .header-logo {
+    padding: 40px 0;
+  }
+  .header-container {
+    position: relative;
+  }
+  .container {
+    padding-top: 40px;
+  }
+  nav{
+    display: none;
+  }
+  nav a {
+    display: block;
+  }
+  .mobile-nav{
+    display: block;
+  }
+  .mobile-menu{
+    display: none;
   }
 }
 /* table view 2 */
@@ -74,10 +110,10 @@ header .header-menu nav a {
   .col {
     width: 100%;
   }
-  header {
+  /* header {
     display: block;
     text-align: center;
-  }
+  } */
   .header-logo {
     padding: 40px 0;
   }
