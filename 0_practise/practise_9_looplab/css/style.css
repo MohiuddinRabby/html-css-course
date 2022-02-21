@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+/* navbar */
+.navbar {
+  border-bottom: 2px solid rgb(0, 183, 255);
+  opacity: 0.8;
+}
+/* header */
+#home {
+  background: url(../img/home.jpg);
+  min-height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-position: center; */
+}
+#home .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+#home .home-inner {
+  padding-top: 150px;
+}
+#home .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+#home .card-form {
+  opacity: 0.8;
+}
+/* explore */
+.exlore-two .fas {
+  color: #008ed6;
+  background: rgba(0, 0, 0, 0.2) !important;
+  padding: 5px;
+  border-radius: 5px;
+}
