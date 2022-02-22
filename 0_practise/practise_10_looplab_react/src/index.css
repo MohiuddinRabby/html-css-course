@@ -4,6 +4,7 @@ body {
 body {
   background-color: #333;
   color: #fff;
+  font-family: "Open Sans", sans-serif;
 }
 /* navbar */
 .navbar {
@@ -30,6 +31,19 @@ body {
 #home .home-inner {
   padding-top: 150px;
 }
-.card-form{
+.card-form {
   opacity: 0.7;
+  border-radius: 5px;
+}
+#home .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.explore-section-two .fas {
+  color: #008ed6;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  border-radius: 5px;
 }

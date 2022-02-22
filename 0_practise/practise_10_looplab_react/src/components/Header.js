@@ -10,6 +10,42 @@ const Header = () => {
               <h2 className="display-4">
                 Build social profiles and gain revenue profits
               </h2>
+              <div className="d-flex">
+                <div className="p-4 align-self-start">
+                  <i className="fas fa-check fa-2x"> </i>
+                </div>
+                <div className="p4 align-self-end">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore quae provident, commodi eaque modi obcaecati. Laborum
+                    adipisci similique officia quo!
+                  </p>
+                </div>
+              </div>
+              <div className="d-flex">
+                <div className="p-4 align-self-start">
+                  <i className="fas fa-check fa-2x"> </i>
+                </div>
+                <div className="p4 align-self-end">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore quae provident, commodi eaque modi obcaecati. Laborum
+                    adipisci similique officia quo!
+                  </p>
+                </div>
+              </div>
+              <div className="d-flex">
+                <div className="p-4 align-self-start">
+                  <i className="fas fa-check fa-2x"> </i>
+                </div>
+                <div className="p4 align-self-end">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore quae provident, commodi eaque modi obcaecati. Laborum
+                    adipisci similique officia quo!
+                  </p>
+                </div>
+              </div>
             </div>
             <div className="col-lg-4">
               <div className="bg-primary text-center card-form">
