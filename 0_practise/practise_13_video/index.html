@@ -1,25 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Video Template</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+    <title>Hello, world!</title>
   </head>
   <body>
+    <!--  -->
     <video autoplay muted loop id="myVideo">
-      <source src="video-bg.mp4" type="video/mp4" />
+      <source src="bg-video-1.mp4" type="video/mp4" />
       Your browser does not support HTML5 video.
     </video>
     <div class="content">
-      <h1>Heading</h1>
-      <p>
-        Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat
-        phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum
-        maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore
-        latine molestiae, ad mutat oblique delicatissimi pro.
-      </p>
+      <div class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 text-center hero-slogan">
+              <h1>Vanity dies on</h1>
+              <h1>nature trails</h1>
+              <h2>- we dream of travel</h2>
+              <div class="social-icons text-center">
+                <div class="py-4">
+                  <i class="px-3 fab fa-facebook-f fa-2x"></i>
+                  <i class="px-3 fab fa-instagram fa-2x"></i>
+                  <i class="px-3 fab fa-twitter fa-2x"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 text-center">
+              <p class="lead">
+                Trails.com is an all-encompassing resource for hiking. If you’re
+                a hiking newbie, head to their “Outdoor 101” section. There,
+                you’ll find information about how to master outdoor activities,
+                including camping, hiking, fishing and more. Think you’re ready?
+                Head over to their trail finder, where you can narrow a
+                comprehensive list of trails by city and state. Still have more
+                questions? The Trails.com forums connect you with other outdoor
+                enthusiasts so you can ask questions and discuss the topics that
+                are important to you.
+              </p>
+              <div>
+                <div class="btn btn-light">Book Online</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="top-icon" onclick="openNav()">
+      <i class="fa fa-bars text-light"></i>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-custom opnesidenav" id="open">
+      <ul class="navbar-nav">
+        <li class="nav-item text-right">
+          <a class="nav-link text-right" href="#" onclick="closeNav()"
+            ><i class="fa fa-close"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
   </body>
 </html>

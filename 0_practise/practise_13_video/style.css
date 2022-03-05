@@ -1,9 +1,50 @@
-* {
-  box-sizing: border-box;
-}
 body {
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
 }
+.top-icon .fa {
+  right: 20px;
+  top: 10px;
+  position: fixed;
+  font-size: 30px;
+  cursor: pointer;
+}
+.top-icon {
+  background-color: #487eb0;
+  padding: 25px;
+  display: block;
+}
+.navbar {
+  text-align: center;
+  display: block;
+  padding: 0px;
+}
+.navbar-nav {
+  display: block;
+}
+.navbar-nav li a:hover {
+  color: #dfe6e9;
+}
+.navbar-nav .fa {
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+a {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+.opnesidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  overflow-x: hidden;
+  transition: 0.5s;
+  top: 0px;
+  background-color: rgba(13, 126, 107, 0.5);
+}
+/*  */
 #myVideo {
   position: fixed;
   right: 0;
@@ -11,11 +52,22 @@ body {
   min-width: 100%;
   min-height: 100%;
 }
+
 .content {
   position: fixed;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.555);
   color: #f1f1f1;
   min-width: 100%;
   min-height: 100%;
+}
+/* hero */
+.hero{
+ padding-top: 200px;
+}
+.hero-slogan {
+  font-family: "Caveat", cursive;
+}
+.hero-slogan h1 {
+  font-size: 5rem;
 }
